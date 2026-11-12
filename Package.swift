@@ -41,11 +41,11 @@ let package = Package(
     
     targets: [
         // ============ Binary Targets ============
-        .binaryTarget(name: "XMagic", url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/TencentEffect/iOS/SwiftPM/4.3.0.25/Basic/XMagic.xcframework.zip", checksum: "161e09d669dcb96306a24aa65194d52539219d15dcd450fd73d361e41e91cfb0"),
-        .binaryTarget(name: "YTCommonXMagic", url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/TencentEffect/iOS/SwiftPM/4.3.0.25/YTCommonXMagic.xcframework.zip", checksum: "76e950fade6f04d2481c2b84c38c93efa84159f6005476ea842718ac082ee546"),
-        .binaryTarget(name: "libpag", url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/TencentEffect/iOS/SwiftPM/4.3.0.25/libpag.xcframework.zip", checksum: "f52dfe82a6f3e460fc2bd40d310342e352330da16052d5f71b2c450a48f74150"),
-        .binaryTarget(name: "TECodec", url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/TencentEffect/iOS/SwiftPM/4.3.0.25/TECodec.xcframework.zip", checksum: "3819c017fbbf2b360f1d752ca09952bd637583801d7a84745ab1b6b54b5871e5"),
-        .binaryTarget(name: "XMagicResources", url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/TencentEffect/iOS/SwiftPM/4.3.0.25/Resources/Basic/XMagicResources.xcframework.zip", checksum: "56984222b95d801a7b5f76cf54fca7efb8af61cb169958c765c03649f1399271"),
+        .binaryTarget(name: "XMagic", url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/TencentEffect/iOS/SwiftPM/4.4.0.5/Basic/XMagic.xcframework.zip", checksum: "6da7ea468ca922b36aa5dea0aa1bfc196dfbb0119cd11d4c6f92f97c8cb60aa1"),
+        .binaryTarget(name: "YTCommonXMagic", url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/TencentEffect/iOS/SwiftPM/4.4.0.5/YTCommonXMagic.xcframework.zip", checksum: "86d99fa1479cd4d0824901df9d001d09c5379dfd93be5844c83f891cd859c03d"),
+        .binaryTarget(name: "libpag", url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/TencentEffect/iOS/SwiftPM/4.4.0.5/libpag.xcframework.zip", checksum: "2e5decd1a805b5221f2414ba47328b2ad730f376f5673065ab6485260b11324a"),
+        .binaryTarget(name: "TECodec", url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/TencentEffect/iOS/SwiftPM/4.4.0.5/TECodec.xcframework.zip", checksum: "1a16b9728ff7f7225c48203a6acea9d42766d050492a9162594240a1fda9089c"),
+        .binaryTarget(name: "XMagicResources", url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/TencentEffect/iOS/SwiftPM/4.4.0.5/Resources/Basic/XMagicResources.xcframework.zip", checksum: "50b943022975a125396c53a8b43d395a74179ca277bd0a5c1df804c437094e9e"),
         
         // ============ A1-00 套餐 ============
         .target(
